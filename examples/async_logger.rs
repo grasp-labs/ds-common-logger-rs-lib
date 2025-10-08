@@ -26,7 +26,7 @@ async fn main() {
 }
 
 #[tracing::instrument(
-    ret(level = Level::WARN)
+    ret(level = Level::WARN),
     fields(arg = %arg)
 )]
 async fn helper1(arg: &str) -> Result<String, std::io::Error> {
