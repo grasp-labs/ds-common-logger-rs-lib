@@ -172,7 +172,7 @@ pub fn init_tracing() {
                     .with_thread_names(true)
                     .with_current_span(true)
                     .with_span_list(true)
-                    .with_span_events(FmtSpan::ENTER | FmtSpan::EXIT | FmtSpan::CLOSE),
+                    .with_span_events(FmtSpan::CLOSE),
             )
             .init();
         } else {
@@ -182,7 +182,7 @@ pub fn init_tracing() {
                     .with_target(true)
                     .with_thread_ids(true)
                     .with_thread_names(true)
-                    .with_span_events(FmtSpan::ENTER | FmtSpan::EXIT | FmtSpan::CLOSE),
+                    .with_span_events(FmtSpan::CLOSE),
             )
             .init();
         }
