@@ -12,7 +12,7 @@ fn main() {
     info!("Application started");
     match helper("test") {
         Ok(_) => info!("Helper function called"),
-        Err(e) => error!("Unable to to call: {}", e),
+        Err(e) => error!("Unable to call: {}", e),
     }
     info!("Application finished");
 }
