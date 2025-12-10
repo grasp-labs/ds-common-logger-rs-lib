@@ -1,11 +1,11 @@
 [package]
 name = "ds-common-logger-rs-lib"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 rust-version = "1.76.0"
 description = "A comprehensive Rust library for working with the DS Common Logger, providing high-level abstractions for logging"
 readme = "README.md"
-license = "MIT OR Apache-2.0"
+license = "Apache-2.0"
 repository = "https://github.com/grasp-labs/ds-common-logger-rs-lib"
 documentation = "https://docs.rs/ds-common-logger-rs-lib"
 keywords = ["logging", "tracing", "error", "fmt"]

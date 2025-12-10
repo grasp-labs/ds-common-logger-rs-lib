@@ -1,9 +1,10 @@
 # DS Common Logger Rust Library
 
+[![Rust](https://img.shields.io/badge/rust-1.76%2B-blue.svg)](https://www.rust-lang.org)
 [![Crates.io version](https://img.shields.io/crates/v/ds-common-logger-rs-lib.svg)](https://crates.io/crates/ds-common-logger-rs-lib)
 [![Documentation](https://docs.rs/ds-common-logger-rs-lib/badge.svg)](https://docs.rs/ds-common-logger-rs-lib)
+[![CI](https://github.com/grasp-labs/ds-common-logger-rs-lib/actions/workflows/ci.yaml/badge.svg)](https://github.com/grasp-labs/ds-common-logger-rs-lib/actions/workflows/ci.yaml)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](https://opensource.org/licenses/MIT)
-[![Rust](https://img.shields.io/badge/rust-1.76%2B-blue.svg)](https://www.rust-lang.org)
 
 A high-performance, production-ready logging library for Rust applications that provides structured logging with comprehensive tracing capabilities.
 
@@ -234,9 +235,6 @@ The library uses the following environment variables:
 
 ## License
 
-This project is licensed under either of
+This project is licensed under
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
-- MIT License ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
-
-at your option.
